@@ -7,4 +7,22 @@ html {
 body {
   max-width: 400px;
   margin: auto;
+  background-color: #F4F0EB;
+  font-family: fenway-park-jf, sans-serif;
+  
 }
+
+header h1 {
+  max-width: 120px;
+  margin: auto;
+}
+
+
+.decades .link {
+  max-width: 36px;
+}
+
+
+
+
+
