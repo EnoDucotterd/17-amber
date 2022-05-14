@@ -12,6 +12,11 @@ body {
   
 }
 
+.welcome-page {
+  background-color: #F4F0EB;
+  text-align: center;
+}
+
 header h1 {
   max-width: 120px;
   margin: auto;
@@ -26,7 +31,7 @@ main img {
   max-width: 185px;
 }
 
-main h1 {
+.welcome-page main h1 {
   position: absolute;
   right: 20px;
 }
