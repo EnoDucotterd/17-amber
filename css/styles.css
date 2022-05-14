@@ -27,7 +27,7 @@ header h1 {
   max-width: 36px;
 }
 
-main img {
+.welcome-page main img {
   max-width: 185px;
 }
 
@@ -36,10 +36,37 @@ main img {
   right: 20px;
 }
 
-.astro {
+.main .button {
+  text-decoration: none;
+}
+
+.astro h1 {
   color: #76C3AE;
   position: relative;
 }
+
+.astro .fifty {
+  color: #707851;
+}
+
+.tetsujin h1 {
+  color: #EBC7CE;
+  position: absolute;
+}
+
+.tetsujin .sixty {
+  color: #4472B3;
+}
+
+.oscar h1 {
+  color: #EFDC92;
+  position: absolute;
+}
+
+.oscar .seventy {
+  color: #B24627;
+}
+
 
 
 
