@@ -80,7 +80,19 @@ header h1 {
   text-align: left;
 }
 
+.welcome-links {
+  opacity: 70%;
+}
 
+.welcome-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.welcome-links img {
+  max-width: 85px;
+  padding-bottom: 15px;
+}
 
 
 
