@@ -9,9 +9,7 @@ body {
   margin: auto;
   background-color: #F4F0EB;
   font-family: fenway-park-jf, sans-serif;
-  padding: 25px;
-  
-}
+  }
 
 .welcome-page {
   background-color: #F4F0EB;
@@ -52,8 +50,19 @@ header h1 {
   position: relative;
 }
 
+.astro {
+  background-image: url(/img/50s_deco.svg);
+  background-repeat: no-repeat;
+}
+
 .astro .fifty {
   color: #707851;
+}
+
+.tetsujin {
+  background-image: url(/img/60s_deco.svg);
+  background-repeat: no-repeat;
+  background-position: 0 90%;
 }
 
 .tetsujin h1 {
@@ -63,6 +72,12 @@ header h1 {
 
 .tetsujin .sixty {
   color: #4472B3;
+}
+
+.oscar {
+  background-image: url(/img/70s_deco.svg);
+  background-repeat: no-repeat;
+  background-position: 0 60% ;
 }
 
 .oscar h1 {
