@@ -156,6 +156,19 @@ h1 {
   margin: 0 38px;
 }
 
+.navigate-fifty {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  margin: 100px 0px;
+}
+
+.navigate-fifty a {
+  text-decoration: none;
+  color: #E7EBB4;
+}
+
 
 
 
