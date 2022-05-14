@@ -131,9 +131,27 @@ header h1 {
 .fifty-anime .sommary a {
   text-decoration: none;
   color: #E7EBB4;
-  
-
 }
+
+.history-astro {
+  margin: 0px 38px;
+  /* max-height: 250px;
+  text-overflow: hidden; */
+}
+
+h1 {
+  color: #E7EBB4;
+  text-align: start;
+  margin-left: 38px;
+}
+
+.fifty-button {
+  background-color: #E7EBB4;
+  color: #91C2AE;
+  width: 80px;
+  padding: 5px;
+}
+
 
 
 
