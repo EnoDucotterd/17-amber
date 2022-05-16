@@ -52,6 +52,7 @@ header h1 {
 .astro {
   background-image: url(/img/50s_deco.svg);
   background-repeat: no-repeat;
+  background-color: #91C2AE;
 }
 
 .astro .fifty {
@@ -62,6 +63,7 @@ header h1 {
   background-image: url(/img/60s_deco.svg);
   background-repeat: no-repeat;
   background-position: 0 90%;
+  background-color: #EBC7CE;
 }
 
 .tetsujin h1 {
@@ -77,6 +79,7 @@ header h1 {
   background-image: url(/img/70s_deco.svg);
   background-repeat: no-repeat;
   background-position: 0 60% ;
+  background-color: #F5DB9A;
 }
 
 .oscar h1 {
