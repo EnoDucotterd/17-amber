@@ -64,19 +64,19 @@ header h1 {
   color: #707851;
 }
 
-.tetsujin {
+.oscar {
   background-image: url(/img/60s_deco.svg);
   background-repeat: no-repeat;
   background-position: 0 90%;
   background-color: #ebc7ce;
 }
 
-.tetsujin h1 {
+.oscar h1 {
   color: #4472b3;
   position: absolute;
 }
 
-.tetsujin .sixty {
+.oscar .sixty {
   color: #4472b3;
 }
 
@@ -226,7 +226,7 @@ h1 {
   color: #4472B3;
 }
 
-.history-tetsujin {
+.history-oscar {
   height: 160px;
   margin: 0px 38px;
   overflow: hidden;
@@ -249,7 +249,7 @@ h1 {
   margin-left: 38px;
 }
 
-.history-tetsujin.is-open {
+.history-oscar.is-open {
   height: 400px;
 }
 
@@ -293,12 +293,12 @@ h1 {
 
 /* seventy */
 
-.sixty-anime {
+.seventy-anime {
   background-color: #EBC7CE;
   text-align: center;
 }
 
-.sixty-anime .sommary {
+.seventy-anime .sommary {
   margin: 70px 0;
   display: flex;
   flex-direction: row;
@@ -306,12 +306,12 @@ h1 {
   justify-content: space-around;
 }
 
-.sixty-anime .sommary a {
+.seventy-anime .sommary a {
   text-decoration: none;
   color: #4472B3;
 }
 
-.history-tetsujin {
+.history-oscar {
   height: 160px;
   margin: 0px 38px;
   overflow: hidden;
@@ -326,7 +326,7 @@ h1 {
   margin-left: 38px;
 }
 
-.sixty-button {
+.seventy-button {
   background-color: #4472B3;
   color: #EBC7CE;
   width: 80px;
@@ -334,7 +334,7 @@ h1 {
   margin-left: 38px;
 }
 
-.history-tetsujin.is-open {
+.history-oscar.is-open {
   height: 400px;
 }
 
@@ -344,11 +344,11 @@ h1 {
   right: 20px;
 }
 
-.sixty-product {
+.seventy-product {
   margin: 0 38px;
 }
 
-.navigate-sixty {
+.navigate-seventy {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -356,22 +356,22 @@ h1 {
   margin: 50px 0px;
 }
 
-.navigate-sixty a {
+.navigate-seventy a {
   text-decoration: none;
   color: #4472B3;
 }
 
-.social-sixty {
+.social-seventy {
   margin: 50px 0px;
   color: #4472B3;
 }
 
-.social-sixty img {
+.social-seventy img {
   max-width: 60px;
   margin-bottom: 20px;
 }
 
-.social-sixty a {
+.social-seventy a {
   text-decoration: none;
   color: #4472B3;
 }
