@@ -209,7 +209,7 @@ h1 {
 /* sixty */
 
 .sixty-anime {
-  background-color: #91c2ae;
+  background-color: #EBC7CE;
   text-align: center;
 }
 
@@ -223,7 +223,7 @@ h1 {
 
 .sixty-anime .sommary a {
   text-decoration: none;
-  color: #e7ebb4;
+  color: #4472B3;
 }
 
 .history-tetsujin {
@@ -236,14 +236,14 @@ h1 {
 }
 
 h1 {
-  color: #e7ebb4;
+  color: #4472B3;
   text-align: start;
   margin-left: 38px;
 }
 
 .sixty-button {
-  background-color: #e7ebb4;
-  color: #91c2ae;
+  background-color: #4472B3;
+  color: #EBC7CE;
   width: 80px;
   padding: 5px;
 }
@@ -272,12 +272,12 @@ h1 {
 
 .navigate-sixty a {
   text-decoration: none;
-  color: #e7ebb4;
+  color: #4472B3;
 }
 
 .social-sixty {
   margin: 50px 0px;
-  color: #e7ebb4;
+  color: #4472B3;
 }
 
 .social-sixty img {
@@ -287,5 +287,5 @@ h1 {
 
 .social-sixty a {
   text-decoration: none;
-  color: #e7ebb4;
+  color: #4472B3;
 }
