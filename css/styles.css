@@ -33,12 +33,7 @@ header h1 {
   align-items: center;
 }
 
-.welcome-page main img {
-  max-width: 185px;
-}
-
 .welcome-page main h1 {
-  position: absolute;
   right: 20px;
 }
 
@@ -51,40 +46,32 @@ header h1 {
 
 .astro h1 {
   color: #707851;
-  position: relative;
+  position: absolute;
+  top: 50px;
 }
 
 .astro {
-  background-image: url(/img/50s_deco.svg);
-  background-repeat: no-repeat;
-  background-color: #91c2ae;
+  position: relative;
+  align-items: baseline;
 }
+
 
 .astro .fifty {
   color: #707851;
 }
 
-.oscar {
-  background-image: url(/img/60s_deco.svg);
-  background-repeat: no-repeat;
-  background-position: 0 90%;
-  background-color: #ebc7ce;
+.tetsujin {
+  position: relative;
 }
 
-.oscar h1 {
+.tetsujin h1 {
   color: #4472b3;
   position: absolute;
+  top: 120px;
 }
 
-.oscar .sixty {
+.tetsujin .sixty {
   color: #4472b3;
-}
-
-.oscar {
-  background-image: url(/img/70s_deco.svg);
-  background-repeat: no-repeat;
-  background-position: 0 60%;
-  background-color: #f5db9a;
 }
 
 .oscar h1 {
@@ -151,7 +138,7 @@ header h1 {
   position: relative;
 }
 
-h1 {
+.fifty-anime main h1 {
   color: #e7ebb4;
   text-align: start;
   margin-left: 38px;
@@ -189,6 +176,7 @@ h1 {
 .navigate-fifty a {
   text-decoration: none;
   color: #e7ebb4;
+  margin: 0 20px;
 }
 
 .social-fifty {
@@ -226,7 +214,7 @@ h1 {
   color: #4472B3;
 }
 
-.history-oscar {
+.tetsujin-background {
   height: 160px;
   margin: 0px 38px;
   overflow: hidden;
@@ -235,7 +223,7 @@ h1 {
   position: relative;
 }
 
-h1 {
+.sixty-anime main h1 {
   color: #4472B3;
   text-align: start;
   margin-left: 38px;
@@ -249,11 +237,11 @@ h1 {
   margin-left: 38px;
 }
 
-.history-oscar.is-open {
+.tetsujin-background.is-open {
   height: 400px;
 }
 
-.more {
+.plus {
   position: absolute;
   bottom: 10px;
   right: 20px;
@@ -274,6 +262,7 @@ h1 {
 .navigate-sixty a {
   text-decoration: none;
   color: #4472B3;
+  margin: 0 20px;
 }
 
 .social-sixty {
@@ -294,7 +283,7 @@ h1 {
 /* seventy */
 
 .seventy-anime {
-  background-color: #EBC7CE;
+  background-color: #EFDC92;
   text-align: center;
 }
 
@@ -308,7 +297,7 @@ h1 {
 
 .seventy-anime .sommary a {
   text-decoration: none;
-  color: #4472B3;
+  color: #B24627;
 }
 
 .history-oscar {
@@ -320,15 +309,15 @@ h1 {
   position: relative;
 }
 
-h1 {
-  color: #4472B3;
+.seventy-anime main h1 {
+  color: #B24627;
   text-align: start;
   margin-left: 38px;
 }
 
 .seventy-button {
-  background-color: #4472B3;
-  color: #EBC7CE;
+  background-color: #B24627;
+  color: #EFDC92;
   width: 80px;
   padding: 5px;
   margin-left: 38px;
@@ -358,12 +347,13 @@ h1 {
 
 .navigate-seventy a {
   text-decoration: none;
-  color: #4472B3;
+  color: #B24627;
+  margin: 0 20px;
 }
 
 .social-seventy {
   margin: 50px 0px;
-  color: #4472B3;
+  color: #B24627;
 }
 
 .social-seventy img {
@@ -373,5 +363,5 @@ h1 {
 
 .social-seventy a {
   text-decoration: none;
-  color: #4472B3;
+  color: #B24627;
 }
