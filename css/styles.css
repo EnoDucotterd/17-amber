@@ -45,7 +45,7 @@ header h1 {
 }
 
 .astro h1 {
-  color: #76C3AE;
+  color: #707851;
   position: relative;
 }
 
@@ -65,7 +65,7 @@ header h1 {
 }
 
 .tetsujin h1 {
-  color: #EBC7CE;
+  color: #4472B3;
   position: absolute;
 }
 
@@ -80,7 +80,7 @@ header h1 {
 }
 
 .oscar h1 {
-  color: #EFDC92;
+  color: #B24627;
   position: absolute;
 }
 
