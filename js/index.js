@@ -5,3 +5,9 @@ var open = function(){
 }
 buttonhistory.addEventListener("click",open)
 
+var buttonhistory = document.querySelector(".plus")
+var documentation1 = document.querySelector(".history-tetsujin")
+var open = function(){
+  documentation1.classList.toggle("is-open")
+}
+buttonhistory.addEventListener("click",open)
