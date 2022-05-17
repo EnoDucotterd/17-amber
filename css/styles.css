@@ -169,10 +169,11 @@ header h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .astro-product img {
-  height: 400px;
+  width: 500px;
   
 }
 
@@ -352,8 +353,16 @@ header h1 {
   right: 20px;
 }
 
-.seventy-product {
+.oscar-product {
   margin: 0 38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.oscar-product img {
+  width: 400px;
 }
 
 .navigate-seventy {
