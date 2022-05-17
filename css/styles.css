@@ -33,6 +33,10 @@ header h1 {
   align-items: center;
 }
 
+.welcome-page article a {
+  font-size: x-large;
+}
+
 .welcome-page main h1 {
   right: 20px;
 }
@@ -54,7 +58,6 @@ header h1 {
   position: relative;
   align-items: baseline;
 }
-
 
 .astro .fifty {
   color: #707851;
@@ -163,6 +166,14 @@ header h1 {
 
 .astro-product {
   margin: 0 38px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.astro-product img {
+  height: 400px;
+  
 }
 
 .navigate-fifty {
@@ -197,7 +208,7 @@ header h1 {
 /* sixty */
 
 .sixty-anime {
-  background-color: #EBC7CE;
+  background-color: #ebc7ce;
   text-align: center;
 }
 
@@ -211,7 +222,7 @@ header h1 {
 
 .sixty-anime .sommary a {
   text-decoration: none;
-  color: #4472B3;
+  color: #4472b3;
 }
 
 .tetsujin-background {
@@ -224,14 +235,14 @@ header h1 {
 }
 
 .sixty-anime main h1 {
-  color: #4472B3;
+  color: #4472b3;
   text-align: start;
   margin-left: 38px;
 }
 
 .sixty-button {
-  background-color: #4472B3;
-  color: #EBC7CE;
+  background-color: #4472b3;
+  color: #ebc7ce;
   width: 80px;
   padding: 5px;
   margin-left: 38px;
@@ -261,13 +272,13 @@ header h1 {
 
 .navigate-sixty a {
   text-decoration: none;
-  color: #4472B3;
+  color: #4472b3;
   margin: 0 20px;
 }
 
 .social-sixty {
   margin: 50px 0px;
-  color: #4472B3;
+  color: #4472b3;
 }
 
 .social-sixty img {
@@ -277,13 +288,13 @@ header h1 {
 
 .social-sixty a {
   text-decoration: none;
-  color: #4472B3;
+  color: #4472b3;
 }
 
 /* seventy */
 
 .seventy-anime {
-  background-color: #EFDC92;
+  background-color: #efdc92;
   text-align: center;
 }
 
@@ -297,7 +308,7 @@ header h1 {
 
 .seventy-anime .sommary a {
   text-decoration: none;
-  color: #B24627;
+  color: #b24627;
 }
 
 .history-oscar {
@@ -310,14 +321,14 @@ header h1 {
 }
 
 .seventy-anime main h1 {
-  color: #B24627;
+  color: #b24627;
   text-align: start;
   margin-left: 38px;
 }
 
 .seventy-button {
-  background-color: #B24627;
-  color: #EFDC92;
+  background-color: #b24627;
+  color: #efdc92;
   width: 80px;
   padding: 5px;
   margin-left: 38px;
@@ -347,13 +358,13 @@ header h1 {
 
 .navigate-seventy a {
   text-decoration: none;
-  color: #B24627;
+  color: #b24627;
   margin: 0 20px;
 }
 
 .social-seventy {
   margin: 50px 0px;
-  color: #B24627;
+  color: #b24627;
 }
 
 .social-seventy img {
@@ -363,5 +374,5 @@ header h1 {
 
 .social-seventy a {
   text-decoration: none;
-  color: #B24627;
+  color: #b24627;
 }
