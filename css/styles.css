@@ -154,6 +154,11 @@ header h1 {
   padding: 5px;
 }
 
+.buy-astro a{
+  text-decoration: none;
+  color: #91c2ae;
+}
+
 .astroboy.is-open {
   height: 400px;
 }
@@ -249,6 +254,11 @@ header h1 {
   margin-left: 38px;
 }
 
+.buy-tetsujin a {
+  text-decoration: none;
+  color: #ebc7ce;
+}
+
 .tetsujingo.is-open {
   height: 400px;
 }
@@ -341,6 +351,11 @@ header h1 {
   width: 80px;
   padding: 5px;
   margin-left: 38px;
+}
+
+.buy-oscar a {
+  text-decoration: none;
+  color: #efdc92;
 }
 
 .history.is-open {
