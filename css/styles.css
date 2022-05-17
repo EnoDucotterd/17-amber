@@ -258,8 +258,16 @@ header h1 {
   right: 20px;
 }
 
-.sixty-product {
+.tetsujin-product {
   margin: 0 38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tetsujin-product img {
+  width: 400px;
 }
 
 .navigate-sixty {
