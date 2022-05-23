@@ -8,11 +8,11 @@ body {
   max-width: 400px;
   margin: auto;
   font-family: fenway-park-jf, sans-serif;
+  text-align: center;
 }
 
 .welcome-page {
   background-color: #f4f0eb;
-  text-align: center;
 }
 
 header h1 {
@@ -77,6 +77,10 @@ header h1 {
   color: #4472b3;
 }
 
+.oscar {
+  position: relative;
+}
+
 .oscar h1 {
   color: #b24627;
   position: absolute;
@@ -112,14 +116,7 @@ header h1 {
   padding-bottom: 15px;
 }
 
-/* fifty */
-
-.fifty-anime {
-  background-color: #91c2ae;
-  text-align: center;
-}
-
-.fifty-anime .sommary {
+.sommary {
   margin: 70px 0;
   display: flex;
   flex-direction: row;
@@ -127,18 +124,66 @@ header h1 {
   justify-content: space-around;
 }
 
-.fifty-anime .sommary a {
+.sommary a {
   text-decoration: none;
-  color: #e7ebb4;
 }
 
-.astroboy {
+.history {
   height: 160px;
   margin: 0px 38px;
   overflow: hidden;
   text-overflow: ellipsis;
   transition: height 0.3s;
   position: relative;
+}
+
+.more {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+.navigate {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  margin: 50px 0px;
+}
+
+.navigate a {
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.product {
+  margin: 0 38px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.social {
+  margin: 50px 0px;
+}
+
+.social img {
+  max-width: 60px;
+  margin-bottom: 20px;
+}
+
+.social a {
+  text-decoration: none;
+}
+
+/* fifty */
+
+.fifty-anime {
+  background-color: #91c2ae;
+}
+
+.fifty-anime .sommary a {
+  color: #e7ebb4;
 }
 
 .fifty-anime main h1 {
@@ -154,90 +199,33 @@ header h1 {
   padding: 5px;
 }
 
-.buy-astro a{
+.buy-astro a {
   text-decoration: none;
   color: #91c2ae;
 }
 
-.astroboy.is-open {
-  height: 400px;
-}
-
-.more {
-  position: absolute;
-  bottom: 10px;
-  right: 20px;
-}
-
-.astro-product {
-  margin: 0 38px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 .astro-product img {
   width: 500px;
-  
 }
 
-.navigate-fifty {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-content: space-around;
-  margin: 50px 0px;
-}
-
-.navigate-fifty a {
-  text-decoration: none;
-  color: #e7ebb4;
-  margin: 0 20px;
-}
-
-.social-fifty {
-  margin: 50px 0px;
-  color: #e7ebb4;
-}
-
-.social-fifty img {
-  max-width: 60px;
-  margin-bottom: 20px;
-}
-
+.navigate-fifty a,
+.social-fifty,
 .social-fifty a {
-  text-decoration: none;
   color: #e7ebb4;
+}
+
+.history.is-open {
+  height: 400px;
 }
 
 /* sixty */
 
 .sixty-anime {
   background-color: #ebc7ce;
-  text-align: center;
-}
-
-.sixty-anime .sommary {
-  margin: 70px 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-content: space-around;
 }
 
 .sixty-anime .sommary a {
-  text-decoration: none;
   color: #4472b3;
-}
-
-.tetsujingo {
-  height: 160px;
-  margin: 0px 38px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  transition: height 0.3s;
-  position: relative;
 }
 
 .sixty-anime main h1 {
@@ -259,54 +247,13 @@ header h1 {
   color: #ebc7ce;
 }
 
-.tetsujingo.is-open {
-  height: 400px;
-}
-
-.more {
-  position: absolute;
-  bottom: 10px;
-  right: 20px;
-}
-
-.tetsujin-product {
-  margin: 0 38px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .tetsujin-product img {
   width: 400px;
 }
 
-.navigate-sixty {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-content: space-around;
-  margin: 50px 0px;
-}
-
-.navigate-sixty a {
-  text-decoration: none;
-  color: #4472b3;
-  margin: 0 20px;
-}
-
-.social-sixty {
-  margin: 50px 0px;
-  color: #4472b3;
-}
-
-.social-sixty img {
-  max-width: 60px;
-  margin-bottom: 20px;
-}
-
+.navigate-sixty a,
+.social-sixty,
 .social-sixty a {
-  text-decoration: none;
   color: #4472b3;
 }
 
@@ -314,29 +261,10 @@ header h1 {
 
 .seventy-anime {
   background-color: #efdc92;
-  text-align: center;
-}
-
-.seventy-anime .sommary {
-  margin: 70px 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-content: space-around;
 }
 
 .seventy-anime .sommary a {
-  text-decoration: none;
   color: #b24627;
-}
-
-.ladyoscar {
-  height: 160px;
-  margin: 0px 38px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  transition: height 0.3s;
-  position: relative;
 }
 
 .seventy-anime main h1 {
@@ -358,53 +286,12 @@ header h1 {
   color: #efdc92;
 }
 
-.history.is-open {
-  height: 400px;
-}
-
-.more {
-  position: absolute;
-  bottom: 10px;
-  right: 20px;
-}
-
-.oscar-product {
-  margin: 0 38px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .oscar-product img {
   width: 400px;
 }
 
-.navigate-seventy {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-content: space-around;
-  margin: 50px 0px;
-}
-
-.navigate-seventy a {
-  text-decoration: none;
-  color: #b24627;
-  margin: 0 20px;
-}
-
-.social-seventy {
-  margin: 50px 0px;
-  color: #b24627;
-}
-
-.social-seventy img {
-  max-width: 60px;
-  margin-bottom: 20px;
-}
-
+.navigate-seventy a,
+.social-seventy,
 .social-seventy a {
-  text-decoration: none;
   color: #b24627;
 }
