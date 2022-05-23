@@ -31,6 +31,8 @@ header h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: large;
+  position: relative;
 }
 
 .welcome-page article a {
@@ -48,14 +50,16 @@ header h1 {
   bottom: 0px;
 }
 
+.welcome-page main h1 {
+  position: absolute;
+}
+
 .astro h1 {
   color: #707851;
-  position: absolute;
   top: 50px;
 }
 
 .astro {
-  position: relative;
   align-items: baseline;
 }
 
@@ -63,13 +67,8 @@ header h1 {
   color: #707851;
 }
 
-.tetsujin {
-  position: relative;
-}
-
 .tetsujin h1 {
   color: #4472b3;
-  position: absolute;
   top: 120px;
 }
 
@@ -77,13 +76,8 @@ header h1 {
   color: #4472b3;
 }
 
-.oscar {
-  position: relative;
-}
-
 .oscar h1 {
   color: #b24627;
-  position: absolute;
 }
 
 .oscar .seventy {
@@ -176,6 +170,13 @@ header h1 {
   text-decoration: none;
 }
 
+.fifty-button,
+.sixty-button,
+.seventy-button {
+  width: 80px;
+  padding: 5px;
+}
+
 /* fifty */
 
 .fifty-anime {
@@ -195,8 +196,6 @@ header h1 {
 .fifty-button {
   background-color: #e7ebb4;
   color: #91c2ae;
-  width: 80px;
-  padding: 5px;
 }
 
 .buy-astro a {
@@ -237,8 +236,6 @@ header h1 {
 .sixty-button {
   background-color: #4472b3;
   color: #ebc7ce;
-  width: 80px;
-  padding: 5px;
   margin-left: 38px;
 }
 
@@ -276,8 +273,6 @@ header h1 {
 .seventy-button {
   background-color: #b24627;
   color: #efdc92;
-  width: 80px;
-  padding: 5px;
   margin-left: 38px;
 }
 
